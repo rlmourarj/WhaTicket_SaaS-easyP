@@ -2,7 +2,7 @@
 node_modules/
 
 # Build output
-build/
+# build/  <-- ALLOWED for pre-built deployment
 dist/
 
 # Logs

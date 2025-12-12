@@ -98,10 +98,6 @@ services:
     build:
       context: ./frontend
       dockerfile: Dockerfile
-      args:
-        REACT_APP_BACKEND_URL: ${BACKEND_URL:-http://localhost:8080}
-        REACT_APP_HOURS_CLOSE_TICKETS_AUTO: ${HOURS_CLOSE_TICKETS_AUTO:-24}
-        REACT_APP_FACEBOOK_APP_ID: ${FACEBOOK_APP_ID:-}
     networks:
       - whaticket-network
     depends_on:
