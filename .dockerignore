@@ -1,0 +1,52 @@
+# Git
+.git
+.gitignore
+.gitattributes
+
+# Documentation
+*.md
+!README.md
+LICENSE.txt
+
+# Node modules (will be installed during build)
+node_modules
+npm-debug.log
+yarn-error.log
+
+# Environment files (use build args instead)
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode
+.idea
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test files
+coverage
+*.test.ts
+*.test.js
+*.spec.ts
+*.spec.js
+__tests__
+__mocks__
+
+# Build artifacts
+dist
+build
+*.log
+
+# Temporary files
+tmp
+temp
+*.tmp
+
+# PDFs and other docs (keep in repo but not in Docker image)
+*.pdf
