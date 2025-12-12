@@ -37,6 +37,8 @@ services:
     build:
       context: ./backend
       dockerfile: Dockerfile
+    expose:
+      - "8080"
     environment:
       # Node Environment
       NODE_ENV: ${NODE_ENV:-production}
@@ -99,6 +101,8 @@ services:
     build:
       context: ./frontend
       dockerfile: Dockerfile
+    expose:
+      - "80"
     networks:
       - whaticket-network
     depends_on:
